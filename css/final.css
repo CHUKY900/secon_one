@@ -1,0 +1,12 @@
+body{
+  background-color: var(--color);
+  text-align:center;
+  align-items:center;
+  display:flex;
+  justify-content: center;
+
+  color:white;
+  height:100vh;
+
+
+}

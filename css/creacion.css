@@ -1,0 +1,146 @@
+:root{
+  --green-color:#328D3E;
+  --padding:15px;
+  --color:black;
+  --box:0 0 3px blue;
+  --color2:white;
+}
+body,html{
+  padding: 0px;
+  margin:0px;
+  font-size : 30px;
+  font-family: Helvetica;
+}
+
+nav{
+  display: flex;
+  background-color: var(--green-color);
+  padding :var(--padding);
+  color: var(--color);
+  justify-content:space-between;
+  align-items:center;
+
+}
+label{
+  font-size:35px;
+
+
+}
+
+nav ul{
+  display:flex;
+}
+nav li{
+  padding-right: 50px;
+  list-style:none;
+}
+nav li a{
+color:var(--color);
+text-decoration: none;
+}
+nav li a:hover
+{
+  color:var(--color2);
+  }
+/*Trabajando con main*/
+.main_section{
+  padding:15%;
+  text-align:center;
+}
+.products{
+  background-image:url("../Images/nin.png");
+  max-height: 100px;
+  background-size: cover;
+  background-position: center top;
+  padding:18%;
+  display:flex;
+}
+.product .content{
+  background-color:white;
+  padding:var(--padding);
+  box-shadow :var(--box);
+}
+.product{
+  padding:var(--padding);
+  margin-top: -980px;
+}
+.image_content{
+  text-align:center;
+}
+
+.main_button{
+  background-color:#328D3E;
+  width:100%;
+  padding: 10px;
+  border:0;
+  cursor:pointer;
+  border-radius: 3px;
+  color:var(--color2);
+  font-size:30px;
+}
+.main_button:hover{
+  background-color:#6DE91C;
+  }
+.features{
+  padding:400px;
+  display:flex;
+  text-align:center;
+}
+.feature .feature_content{
+  padding:180px;
+
+}
+.text_comments
+{
+  font-family:helvetica;
+  font-size:35px;
+  text-align:center;
+}
+.comments{
+  padding:400px;
+  text-align:center;
+  display:flex;
+  margin:auto;
+}
+.comment .comment_content{
+  background-color:var(--color2);
+    box-shadow: 0 0 20px blue;
+    padding:100px;
+}
+.comment{
+  padding:5px;
+}
+footer{
+  display:flex;
+  justify-content: space-between;
+  padding:15px;
+  background:black;
+  color:white;
+
+}
+
+.main_footer{
+  font-size:40px;
+
+}
+.main_footer a{
+  color:green;
+}
+.modulo_pago{
+  background-color:white;
+  box-shadow: 0 0 2px blue;
+  font-size:29px;
+  font-family:helvetica;
+  padding-top:40px;
+
+}
+.data{
+  width:100%;
+  margin-top:30px;
+  height:40px;
+  border:8px solid black;
+  box-sizing: border-box;
+}
+.modulo_pago .main_button{
+  margin-top:20px;
+}

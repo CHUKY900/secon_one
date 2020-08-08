@@ -1,0 +1,4 @@
+.fo_container{
+  min-height: calc(100vh - 100px - 200px);
+
+}
